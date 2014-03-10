@@ -4,4 +4,8 @@ class PostsController < ApplicationController
 
   def index
   end
+#creamos el create
+  def create
+  	render json: params
+  end
 end
